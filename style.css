@@ -1,0 +1,76 @@
+body{
+	font-family: 'Montserrat', sans-serif;
+
+}
+
+header {
+	padding: 20px 0px;
+	background:silver;
+}
+
+.caixa {
+	position: relative;
+	width: 940px;
+	margin: 0 auto;
+}
+
+.imagem-logo{
+	width: 30%;
+}
+
+nav {
+	position: absolute;
+	top: 110px;
+	right: 0;
+}
+
+nav li {
+	display: inline;
+	margin: 0 0 0 15px;
+}
+
+nav a {
+	text-transform: uppercase;
+	color: sienna;
+	font-weight: bold;
+	font-size: 22px;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: darkblue;
+}
+
+.banner {
+	margin: 30px 0 0 80px;
+	width: 90%;
+	box-shadow: 10px 10px 10px #000000;
+	
+}
+.titulo-principal{
+	text-align: center;
+	font-size: 2em;
+	margin: 0 0 1em;
+	clear: left;
+	font-weight: bold;
+
+}
+
+.principal {
+	padding: 5em 0 3em;
+	background: white;
+	width: 940px;
+	margin: 0 auto;
+	}
+
+.video{
+	width: 320px;
+	margin: 0.1em auto;
+}
+
+.titulo-video{
+	text-align: center;
+	font-size: 2em;
+	margin: 0 0 1em;
+	font-weight: bold;
+}
