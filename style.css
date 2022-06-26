@@ -3,6 +3,8 @@ body{
 
 }
 
+/*Cabeçaljo*/
+
 header {
 	padding: 20px 0px;
 	background:silver;
@@ -41,6 +43,8 @@ nav a:hover {
 	color: darkblue;
 }
 
+/*Corpo - Página Principal*/
+
 .banner {
 	margin: 30px 0 0 80px;
 	width: 90%;
@@ -73,4 +77,100 @@ nav a:hover {
 	font-size: 2em;
 	margin: 0 0 1em;
 	font-weight: bold;
+}
+
+/*Corpo Página Portifólio*/
+
+.portifolio{
+	padding: 0 0 3em;
+	background: white;
+	width: 940px;
+	margin: 0 auto;
+}
+
+.titulo-portifolio{
+	text-align: center;
+	font-size: 3em;
+	margin: 2em 0 0 0;
+	font-weight: bold;
+}
+
+.imagem-portifolio {
+	padding: 30px;
+
+}
+
+.imagem-portifolio img{
+	width: 70%;
+	margin: 0 auto;
+	display: block;
+}
+
+.imagem-portifolio h2 {
+	text-align: center;
+	font-size: 2em;
+	margin: 2em 0 1em;
+	font-weight: bold;
+}
+
+/*Corpo da Página Contato*/
+
+form{
+	margin: 40px 0 40px 20px;
+}
+
+form label, form legend {
+	display: block;
+	font-size: 20px;
+	margin: 0 0 10px;
+}
+
+.input-padrao {
+	display: block;
+	margin: 0 0 20px;
+	padding: 10px 25px;
+	width: 50%;
+}
+
+.checkbox {
+	margin: 20px 0 30px 0;
+}
+
+.enviar {
+	display: block;
+	margin: 0 auto;
+	width: 40%;
+	padding: 15px 0;
+	background: darkblue;
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+	border: none;
+	border-radius: 5px;
+	transition: 1s all;
+	cursor: pointer;
+}
+
+.enviar:hover {
+	background: darkorange;
+	transform: scale(1.2);
+}
+
+/*Rodape*/
+
+footer{
+	text-align: center;
+	background: silver;
+	padding: 40px 0;
+	margin: 30px 0 0 0;
+}
+
+.imagem-rodape{
+	width: 20%;
+}
+
+.copyright {
+	color: white;
+	font-size: 13px;
+	margin: 20px;
 }
